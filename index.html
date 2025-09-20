@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sabores en Piedra</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <div class="contenedor">
+      <h1>Sabores en Piedra</h1>
+      <p class="descripcion">Un blog de recetas familiar.</p>
+    </div>
+    <nav aria-label="Navegación principal">
+      <ul>
+       
+        <li><a href="receta-lasagna.html" title="Ver la receta de lasaña">Lasana clasica</a></li>
+         <li><a href="Galletas-miel.html" title="Ver la receta de Galletas de avena y miel">Galletas de avena y miel</a></li>
+          <li><a href="Crema-champiñones.html" title="Ver la receta de Crema de champiñones">Crema de champinones</a></li>
+        <li><a href="#sobre-mi" title="Leer sobre el autor del blog">Sobre mi</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="portada" aria-labelledby="portada-titulo">
+      <h2 id="portada-titulo">Portada</h2>
+      <figure>
+        <img src="imagenes/mesa_madera.jpg" alt="Mesa rústica con ingredientes: tomates, albahaca y pasta" width="750" height="400">
+        <figcaption>Ingredientes que cuentan historias.</figcaption>
+      </figure>
+    </section>
+
+    <section id="recetas" aria-labelledby="recetas-titulo">
+      <h2 id="recetas-titulo">Recetas destacadas</h2>
+      <ol>
+        <li>
+          <article>
+            <h3><a title="Abrir la receta detallada de lasaña">Lasaña clásica</a></h3>
+            <p>Capas de salsa, carne y queso,una canción en cada bocado.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3><a href="#" title="Abrir la receta de galletas de avena">Galletas de avena y miel</a></h3>
+            <p>Crujientes al borde, suaves por dentro.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3><a href="#" title="Abrir la receta de crema de champiñones">Crema de champiñones</a></h3>
+            <p>Un abrazo cálido en forma de sopa.</p>
+          </article>
+        </li>
+      </ol>
+    </section>
+
+    <aside id="sobre-mi" aria-labelledby="sobre-mi-titulo">
+      <h2 id="sobre-mi-titulo">Sobre mí</h2>
+      <figure>
+        <img src="imagenes/chef.jpg" alt="Retrato del chef " width="550" height="400">
+        <figcaption>El autor, soñador y práctico a la vez.</figcaption>
+      </figure>
+      <p>Soy Santg, estudiante y cocinero aficionado. Escribo recetas claras, para que cualquiera cocine con confianza.</p>
+    </aside>
+
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      
+      <p>© <time datetime="2025">2025</time> Sabores en Piedra</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
